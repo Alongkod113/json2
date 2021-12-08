@@ -130,6 +130,7 @@
             })
             .fail((xhr, status, error) => {
             })
+    }
 
         $(() => {
             loadPosts();
@@ -143,7 +144,7 @@
 
             });
         })
-        
+
 </script>
 
 </html>
