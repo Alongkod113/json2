@@ -105,7 +105,7 @@
                     line += item.body + "</td>";
                     line += "<td> <button onClick='showDetails(" + item.id + ");' > link </button> </td>";
                     line += "</tr>";
-                    $("#tblPosts").append(line);
+                    $("#tblComments").append(line);
                 });
                 $("#main").show();
             })
