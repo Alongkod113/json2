@@ -49,9 +49,7 @@
         <table>
             <thead>
                 <tr>
-                    <th>ID</th>
-                    <th>Title</th>
-                    <th>Userid</th>
+                    <th>/*  */</th>
                 </tr>
             </thead>
             <tbody id="tblComments">
