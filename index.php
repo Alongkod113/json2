@@ -36,7 +36,7 @@
         </table>
     </div>
 
-    <button id="btnment"> ment </button>
+    <button id="btnment"> comment </button>
     <div id="Comments">
         <table>
             <thead>
@@ -115,12 +115,12 @@
     $(() => {
         loadPosts();
         $("#detail").hide();
-        $("#Comments").show();
+        
         $("#btnBack").click(() => {
             $("#main").show();
             $("#detail").hide();
             $("#detailROW").remove();
-
+            $("#Comments").show();
 
         });
     })
