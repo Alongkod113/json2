@@ -146,8 +146,8 @@
         $("#btnBack").click(() => {
             $("#main").show();
             $("#detail").hide();
-            $("#Comments").show();
             $("#detailROW").remove();
+            $("#Com").show();
 
         });
     })
