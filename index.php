@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alongkod</title>
 </head>
+
 <body>
     <button id="btnBack"> back </button>
 
@@ -38,14 +40,28 @@
         </table>
     </div>
 
-    
+    <button id="btnment"> comment </button>
+    <div id="Comments">
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Title</th>
+                    <th>Userid</th>
+                </tr>
+            </thead>
+            <tbody id="tblComments">
+            </tbody>
+        </table>
+    </div>
+
 </body>
 
 
 <script>
 
     function refresh() {
-        
+
     }
 
     function showDetails(id) {
@@ -59,12 +75,12 @@
             .done((data) => {
                 console.log(data);
                 var line = "<tr id='detailROW'";
-                    line += "><td>" + data.id + "</td>"
-                    line += "<td><b>" + data.title + "</b><br/>"
-                    line += data.body + "</td>"
-                    line += "<td>" + data.userId + "</td>"
-                    line += "</tr>";
-                    $("#tbldetails").append(line);
+                line += "><td>" + data.id + "</td>"
+                line += "<td><b>" + data.title + "</b><br/>"
+                line += data.body + "</td>"
+                line += "<td>" + data.userId + "</td>"
+                line += "</tr>";
+                $("#tbldetails").append(line);
             })
             .fail((xhr, err, status) => {
 
@@ -95,17 +111,39 @@
             })
     }
 
-    $(() => {
-        LoadPosts();
-        $("#detail").hide();
-        $("#btnBack").click(() => {
-            $("#main").show();
+    function loadPosts() {
+        var url = "https://jsonplaceholder.typicode.com/posts/" + comments;
+
+        $.getJSON(url)
+            .done((data) => {
+                $.each(data, (k, item) => {
+                    // console.log(item);
+                    var line = "<tr>";
+                    line += "<td>" + item.id + "</td>";
+                    line += "<td><b>" + item.title + "</b><br/>";
+                    line += item.body + "</td>";
+                    line += "<td> <button onClick='showDetails(" + item.id + ");' > link </button> </td>";
+                    line += "</tr>";
+                    $("#tblComments").append(line);
+                });
+                $("#main").show();
+            })
+            .fail((xhr, status, error) => {
+            })
+
+        $(() => {
+            loadPosts();
             $("#detail").hide();
-            $("#detailROW").remove();
-        });
-    })
+
+            $("#btnBack").click(() => {
+                $("#main").show();
+                $("#detail").hide();
+                $("#detailROW").remove();
+                $("#Comments").show();
+
+            });
+        })
+        
 </script>
 
-</html>
-</body>
 </html>
