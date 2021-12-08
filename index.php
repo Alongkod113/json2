@@ -4,11 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alongkod</title>
+    <title>Alongkod2</title>
 </head>
 
 <body>
+
     <button id="btnBack"> back </button>
 
     <div id="main">
@@ -40,8 +43,9 @@
         </table>
     </div>
 
+
     <button id="btnment"> comment </button>
-    <div id="Comments">
+    <div id="Com">
         <table>
             <thead>
                 <tr>
@@ -54,19 +58,18 @@
             </tbody>
         </table>
     </div>
-
 </body>
 
 
 <script>
 
     function refresh() {
-
+        
     }
 
     function showDetails(id) {
         $("#main").hide();
-        $("#Detail").show();
+        $("#detail").show();
 
         // console.log(id);
         var url = "https://jsonplaceholder.typicode.com/posts/" + id
@@ -75,12 +78,12 @@
             .done((data) => {
                 console.log(data);
                 var line = "<tr id='detailROW'";
-                line += "><td>" + data.id + "</td>"
-                line += "<td><b>" + data.title + "</b><br/>"
-                line += data.body + "</td>"
-                line += "<td>" + data.userId + "</td>"
-                line += "</tr>";
-                $("#tbldetails").append(line);
+                    line += "><td>" + data.id + "</td>"
+                    line += "<td><b>" + data.title + "</b><br/>"
+                    line += data.body + "</td>"
+                    line += "<td>" + data.userId + "</td>"
+                    line += "</tr>";
+                    $("#tbldetails").append(line);
             })
             .fail((xhr, err, status) => {
 
@@ -114,7 +117,7 @@
     function showComments(Comments) {
         $("#main").hide();
         $("#detail").show();
-        $("#Comments").show();
+        $("#Com").show();
         var url = "https://jsonplaceholder.typicode.com/posts/" + comments;
 
         $.getJSON(url)
@@ -127,7 +130,7 @@
                     line += item.body + "</td>";
                     line += "<td> <button onClick='showDetails(" + item.id + ");' > link </button> </td>";
                     line += "</tr>";
-                    $("#tblComments").append(line);
+                    $("#tblComment").append(line);
                 });
 
             })
@@ -135,19 +138,19 @@
             })
     }
 
-        $(() => {
-            loadPosts();
+
+
+    $(() => {
+        LoadPosts();
+        $("#detail").hide();
+        $("#btnBack").click(() => {
+            $("#main").show();
             $("#detail").hide();
+            $("#Comments").show();
+            $("#detailROW").remove();
 
-            $("#btnBack").click(() => {
-                $("#main").show();
-                $("#detail").hide();
-                $("#detailROW").remove();
-                $("#Comments").show();
-
-            });
-        })
-
+        });
+    })
 </script>
 
 </html>
