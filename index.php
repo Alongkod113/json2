@@ -123,7 +123,7 @@
         $.getJSON(url)
             .done((data) => {
                 $.each(data, (c,comment ) => {
-                    // console.log(comments);
+                    // single line comment;
                     var line = "<tr>";
                     line += "<td>" + comments.id + "</td>"
                     line += "<td><b>" + comments.title + "</b><br/>"
