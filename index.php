@@ -113,20 +113,17 @@
     }
 
     function showComments() {
-        $("#main").hide();
-        $("#detail").show();
-        $("#Com").show();
-        var url = "https://jsonplaceholder.typicode.com/comments/";
+        var url = "https://jsonplaceholder.typicode.com/posts/1/comments";
 
         $.getJSON(url)
             .done((data) => {
                 $.each(data, (c,comment ) => {
                     // single line comment;
                     var line = "<tr>";
-                    line += "<td>" +/*  */ + "</td>"
-                    line += "<td><b>" + /*  */ + "</b><br/>"
-                    line += /*  */ + "</td>"
-                    line += "<td><button onClick='showDetails(" + /*  */ + ");'>Link</button></td>"
+                    line += "<td>" +comment + "</td>"
+                    line += "<td><b>" + comment.title+ "</b><br/>"
+                    line += comment.body + "</td>"
+                    line += "<td><button onClick='showDetails(" + comment + ");'>comment</button></td>"
                     line += "</tr>";
                     $("#tblComment").append(line);
                 });
