@@ -114,11 +114,11 @@
             })
     }
 
-    function showComments(Comments) {
+    function showComments() {
         $("#main").hide();
         $("#detail").show();
         $("#Com").show();
-        var url = "https://jsonplaceholder.typicode.com/posts/" + comments;
+        var url = "https://jsonplaceholder.typicode.com/comments/";
 
         $.getJSON(url)
             .done((data) => {
