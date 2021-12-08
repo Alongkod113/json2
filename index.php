@@ -130,7 +130,7 @@
                     line += comments.body + "</td>"
                     line += "<td><button onClick='showDetails(" + comments.id + ");'>Link</button></td>"
                     line += "</tr>";
-                    $("#tblComment").append(line);
+                    $("#tblComment").append(/*  */);
                 });
                 $("#main").show();
                 
