@@ -66,7 +66,7 @@
 
     function showDetails(id) {
         $("#main").hide();
-        $("#detail").show();
+        $("#Detail").show();
 
         // console.log(id);
         var url = "https://jsonplaceholder.typicode.com/posts/" + id
@@ -111,7 +111,10 @@
             })
     }
 
-    function loadPosts() {
+    function showComments(Comments) {
+        $("#main").hide();
+        $("#detail").show();
+        $("#Comments").show();
         var url = "https://jsonplaceholder.typicode.com/posts/" + comments;
 
         $.getJSON(url)
@@ -126,7 +129,7 @@
                     line += "</tr>";
                     $("#tblComments").append(line);
                 });
-                $("#main").show();
+
             })
             .fail((xhr, status, error) => {
             })
