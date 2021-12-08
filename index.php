@@ -118,20 +118,20 @@
         $("#main").hide();
         $("#detail").show();
         $("#Com").show();
+
+        // console.log(id);
         var url = "https://jsonplaceholder.typicode.com/comments/";
 
         $.getJSON(url)
-            .done((data) => {
-                $.each(data, (k, item) => {
-                    // console.log(item);
-                    var line = "<tr>";
-                    line += "<td>" + item.id + "</td>";
-                    line += "<td><b>" + item.title + "</b><br/>";
-                    line += item.body + "</td>";
-                    line += "<td> <button onClick='showDetails(" + item.id.Comments+ ");' > link </button> </td>";
+            .done((comment) => {  
+                console.log(comment);
+                var line = "<tr>";comment
+                    line += "<td>" + comment + "</td>";
+                    line += "<td><b>" +  + "</b><br/>";
+                    line += comment.body + "</td>";
+                    line += "<td> <button onClick='showDetails(" + Comments+ ");' > link </button> </td>";
                     line += "</tr>";
                     $("#tblComment").append(line);
-                });
 
             })
             .fail((xhr, status, error) => {
@@ -143,6 +143,7 @@
     $(() => {
         LoadPosts();
         $("#detail").hide();
+        
         $("#btnBack").click(() => {
             $("#main").show();
             $("#detail").hide();
