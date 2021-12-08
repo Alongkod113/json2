@@ -128,7 +128,7 @@
                     line += "<td>" + item.id + "</td>";
                     line += "<td><b>" + item.title + "</b><br/>";
                     line += item.body + "</td>";
-                    line += "<td> <button onClick='showDetails(" + item.id + ");' > link </button> </td>";
+                    line += "<td> <button onClick='showDetails(" + item.id.Comments+ ");' > link </button> </td>";
                     line += "</tr>";
                     $("#tblComment").append(line);
                 });
