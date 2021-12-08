@@ -125,12 +125,12 @@
                 $.each(data, (c,comment ) => {
                     // single line comment;
                     var line = "<tr>";
-                    line += "<td>" + comments.id + "</td>"
-                    line += "<td><b>" + comments.title + "</b><br/>"
-                    line += comments.body + "</td>"
-                    line += "<td><button onClick='showDetails(" + comments.id + ");'>Link</button></td>"
+                    line += "<td>" +/*  */ + "</td>"
+                    line += "<td><b>" + /*  */ + "</b><br/>"
+                    line += /*  */ + "</td>"
+                    line += "<td><button onClick='showDetails(" + /*  */ + ");'>Link</button></td>"
                     line += "</tr>";
-                    $("#tblComment").append(/*  */);
+                    $("#tblComment").append(line);
                 });
                 $("#main").show();
                 
