@@ -123,7 +123,7 @@
             .done((data) => {
               $.each(data, (k, item) => {
                     var line = "<tr>";
-                    line += "<td>" + item.postId + "</td>"
+                    line += "<td>" + item.postID + "</td>"
                     line += "<td><b>" + item.id + "</b><br/>"
                     line += "<td><b>" + item.name+ "</b><br/>"
                     line += "<td><b>" + item.email + "</b><br/>"
