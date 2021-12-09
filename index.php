@@ -46,13 +46,12 @@
                     หากรดมากเกินไปจนดินแฉะจะทำให้รากเน่าได้
                     ความยากในการเลี้ยงกวักมรกตด่างคือเราจะสังเกตว่าใบซีดขาวนั้นเป็นธรรมชาติหรือใบมีปัญหากันแน่</p>
             </div>
-            <div>
-            </div>
-            <div class="col-4 bg">
-                <br>
-                <img src="https://files.gqthailand.com/uploads/Pink-Princess1.jpg" alt="รูปภาพ" class="card-img-top"
-                    alt="รูปภาพ"><br>
-                <div class="card-body"></div>
+        <div>
+    </div>
+        <div class="col-4 bg"><br>
+            <img src="https://files.gqthailand.com/uploads/Pink-Princess1.jpg" 
+                alt="รูปภาพ" class="card-img-top"><br>
+            <div class="card-body">
                 <p class="card-text">ฟิโลเดนดรอนเป็นพรรณไม้ธรรมดาสำหรับเลี้ยงที่บ้าน ราคาไม่แพง ดูแลง่าย ใบมีรูปทรงสวย
                     แต่ต้นที่ญาญ่า - อุรัสยา เสปอร์บันด์ นำมาเลี้ยงจนเป็นผู้นำเทรนด์ (จนราคาพุ่งไปสูงลิ่ว)
                     คือฟิโลเดนดรอน พิงค์ ปรินเซส ที่ใบสีเขียวจะมีสีชมพูแทรกเข้ามาครึ่งใบบ้าง ค่อนใบบ้าง
