@@ -32,23 +32,7 @@
         <div class="col-01 bg3"></div>
     <div class="row bg">
         <div class="col-6">
-            <img src="https://files.gqthailand.com/uploads/%E0%B8%81%E0%B8%A7%E0%B8%B1%E0%B8%81%E0%B8%A1%E0%B8%A3%E0%B8%81%E0%B8%951.jpg" alt="รูปภาพ">
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, necessitatibus reiciendis distinctio in commodi quis ab repudiandae aspernatur dolore expedita, laboriosam dolor maiores accusamus amet sequi aperiam unde minus iste.</p>
+            <img src="https://files.gqthailand.com/uploads/%E0%B8%81%E0%B8%A7%E0%B8%B1%E0%B8%81%E0%B8%A1%E0%B8%A3%E0%B8%81%E0%B8%951.jpg" alt="รูปภาพ" class="card-img-top" alt="...">
+            <div class="card-body">
+            
         </div>
-
-        <div class="col-6">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, necessitatibus reiciendis distinctio in commodi quis ab repudiandae aspernatur dolore expedita, laboriosam dolor maiores accusamus amet sequi aperiam unde minus iste.
-        </div>
-    </div>
-<hr>
-    <div class="">
-        <div class="col-4">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, necessitatibus reiciendis distinctio in commodi quis ab repudiandae aspernatur dolore expedita, laboriosam dolor maiores accusamus amet sequi aperiam unde minus iste.
-        </div>
-
-        <div class="col-4">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, necessitatibus reiciendis distinctio in commodi quis ab repudiandae aspernatur dolore expedita, laboriosam dolor maiores accusamus amet sequi aperiam unde minus iste.
-        </div>
-    </div>
-  </body>
-</html>
