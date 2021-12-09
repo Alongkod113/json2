@@ -114,9 +114,9 @@
                                         </tbody>
                                     </table>
                                 </div>
-                            
-                            
+
                             </body>
+                            
                             <script>
                                 function showDetails(id) {
                                     $("#main").hide();
@@ -160,7 +160,7 @@
                                             $("#main").show();
                                         })
                                         .fail((xhr, status, error) => {
-                                            
+
                                         })
 
                                 $(() => {
@@ -186,10 +186,5 @@
                 <h1>63112379_Alongkod</h1>
             </div>
         </div>
-
-
     </div>
-
-</body>
-
 </html>
