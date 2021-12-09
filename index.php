@@ -99,7 +99,6 @@
     function showDetails(id) {
         $("#main").hide();
         $("#detail").show();
-        $("main2").hide();
         var url = "https://jsonplaceholder.typicode.com/posts/" + id
         $.getJSON(url)
             .done((data) => {
@@ -143,6 +142,7 @@
     }
 
     function showcomments(id) {
+        $("#main").hide();
         $("#commsnts").show();
         var url = "https://jsonplaceholder.typicode.com/posts/"+id+"/comments"
         $.getJSON(url)
