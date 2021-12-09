@@ -75,8 +75,8 @@
         $("#detail").hide();
         $("main2").hide();
         var url = "https://jsonplaceholder.typicode.com/posts"
-        $.getJSON(url0-9)
-            .done((data) => {
+        $.getJSON(url)
+            .done((data0-9) => {
                 $.each(data, (k, item) => {
                     
                     var line = "<tr>";
@@ -164,12 +164,13 @@
           
     $(() => {
         LoadPosts();
+
         $("#detail").hide();
         
-            $("#main").show();
+            $("#main").show(0-9);
             $("#btnBack").click(() => {
-            $("#main").show();
-            $("#details").remove();
+            $("#main").show(0-9);
+            $("#details").remove(0-9);
         });
         LoadPosts2();
     })
