@@ -34,9 +34,9 @@
     <img src="https://www.prachachat.net/wp-content/uploads/2021/09/%E0%B9%84%E0%B8%A1%E0%B9%89%E0%B8%94%E0%B9%88%E0%B8%B2%E0%B8%87.jpg"
         alt="รูปภาพ" width="90%"><br>
     <div class="col-12 bg3">[Float:left]</div>
+
     <div class="row bg">
-        <div class="col-6 bg2">
-            <br>
+        <div class="col-4 bg2"><br>
             <img src="https://files.gqthailand.com/uploads/%E0%B8%81%E0%B8%A7%E0%B8%B1%E0%B8%81%E0%B8%A1%E0%B8%A3%E0%B8%81%E0%B8%951.jpg"
                 alt="รูปภาพ" class="card-img-top"><br>
             <div class="card-body">
@@ -48,7 +48,7 @@
             </div>
             <div>
             </div>
-            <div class="col-6 bg">
+            <div class="col-4 bg">
                 <br>
                 <img src="https://files.gqthailand.com/uploads/Pink-Princess1.jpg" alt="รูปภาพ" class="card-img-top"
                     alt="รูปภาพ"><br>
@@ -62,30 +62,8 @@
                     ฟิโลเดนดรอนก้ามกุ้งด่าง </p>
             </div>
         </div>
-        <div class="col-12 bg0">
-            <div id="main">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>ID</th>
-                            <th>Title</th>
-                            <th> Details </th>
-                        </tr>
-                    </thead>
-                    <tbody id="tblPosts">
-                    </tbody>
-                </table>
-            </div>
-        </div>
+
     </div>
-</div>
-</div>
-<br>
-<div>
-    <div class="col-12 bg0 center">
-        <h1> 63110282 อลงกต ธุระวงศ์</h1>
-    </div>
-</div>
-</body>
+    </body>
 
 </html>
