@@ -33,7 +33,7 @@
         }
     </style>
 </head>
-
+<h1>spotted tree</h1>
 <body class="bg">
     <div class="container">
         <div>
@@ -97,7 +97,7 @@
         <br>
         <div>
             <div class="col-12 bg0 center">
-                <h1>63112379_Alongkod</h1>
+                <h1>63112379_Alongkod_</h1>
             </div>
         </div>
 
