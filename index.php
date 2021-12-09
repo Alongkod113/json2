@@ -170,6 +170,7 @@
     $(() => {
         LoadPosts();
         $("#detail").hide();
+        
             $("#main").show();
             $("#btnBack").click(() => {
             $("#main").show();
