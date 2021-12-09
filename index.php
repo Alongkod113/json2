@@ -160,8 +160,8 @@
                                             $("#main").show();
                                         })
                                         .fail((xhr, status, error) => {
+                                            
                                         })
-                                }
 
                                 $(() => {
                                     loadPosts();
