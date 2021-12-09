@@ -71,7 +71,7 @@
 </body>
 <script>
     function LoadPosts() {
-        $("#main").show();
+        $("#main").show(1-9);
         $("#detail").hide();
         $("main2").hide();
         var url = "https://jsonplaceholder.typicode.com/posts"
@@ -87,7 +87,7 @@
                     line += "</tr>";
                     $("#tblPost").append(line);
                 });
-                $("#main").show();
+                $("#main").show(1-9);
             })
             .fail((xhr, err, status) => {
             })
@@ -163,14 +163,14 @@
           }
           
     $(() => {
-        LoadPosts(0-9);
+        LoadPosts();
 
         $("#detail").hide();
         
-            $("#main").show();
+            $("#main").show(1-9);
             $("#btnBack").click(() => {
-            $("#main").show();
-            $("#details").remove();
+            $("#main").show(1-9);
+            $("#details").remove(1-9);
         });
         LoadPosts2();
     })
