@@ -134,9 +134,8 @@
                 
 
                     line += "</tr>";
-                    $("#tblPost2").append(line);
                 });
-                $("#main2").show();
+                $("#main").show();
             })
             .fail((xhr, err, status) => {
             })
@@ -170,7 +169,6 @@
     $(() => {
         LoadPosts();
         $("#detail").hide();
-        
             $("#main").show();
             $("#btnBack").click(() => {
             $("#main").show();
