@@ -41,7 +41,6 @@
         <table>
             <thead>
                 <th>postID</th><br/>
-
                 <th>id</th>
                 <th>name</th>
                 <th>email</th>
@@ -68,6 +67,8 @@
             </tbody>
         </table>
     </div>
+
+
 </body>
 <script>
     function LoadPosts() {
@@ -136,7 +137,7 @@
                     line += "</tr>";
                     $("#tblPost2").append(line);
                 });
-                $("#main").show();
+                $("#main2").show();
             })
             .fail((xhr, err, status) => {
             })
