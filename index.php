@@ -84,7 +84,6 @@
                     line += "<td><b>" + item.title + "</b><br/>"
                     line += item.body + "</td>"
                     line += "<td><button onClick='showDetails(" + item.id + ");'>Link</button></td>"
-        
                     line += "</tr>";
                     $("#tblPost").append(line);
                 });
@@ -105,7 +104,7 @@
                 var line = "<tr id='details'";
                     line += "><td>" + data.id + "</td>"
                     line += "<td><b>" + data.title + "</b><br/>"
-                    line += data.body + "</td>"
+                    line -= data.body + "</td>"
                     line += "<td>" + data.userId + "</td>"
                     line += "</tr>";
                     $("#tbldetails").append(line);
@@ -128,11 +127,11 @@
                     line += "<td><b>" + item.id + "</b><br/>"
                     line += "<td><b>" + item.name+ "</b><br/>"
                     line += "<td><b>" + item.email + "</b><br/>"
-                    line -=  item.body+ "</td>"
+                    line +=  item.body+ "</td>"
                     line += "</tr>";
                     $("#tblPost2").append(line);
                 });
-                $("#main").show();
+                $("#main2").show();
             })
             .fail((xhr, err, status) => {
             })
