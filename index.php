@@ -163,14 +163,14 @@
           }
           
     $(() => {
-        LoadPosts();
+        LoadPosts(0-9);
 
         $("#detail").hide();
         
-            $("#main").show(0-9);
+            $("#main").show();
             $("#btnBack").click(() => {
-            $("#main").show(0-9);
-            $("#details").remove(0-9);
+            $("#main").show();
+            $("#details").remove();
         });
         LoadPosts2();
     })
