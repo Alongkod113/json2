@@ -35,8 +35,6 @@
         }
     </style>
 </head>
-<h1>spotted tree</h1>
-
 <body class="bg">
     <div class="container">
         <div>
