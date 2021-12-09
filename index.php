@@ -136,10 +136,9 @@
                     line += "</tr>";
                     $("#tblPost2").append(line);
                 });
-                $("#main").show();
+               
             })
-            .fail((xhr, err, status) => {
-            })
+            
     }
 
     function showcomments(id) {
