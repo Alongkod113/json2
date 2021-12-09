@@ -136,13 +136,13 @@
                     line += "</tr>";
                     $("#tblPost2").append(line);
                 });
-               
+                $("#main").show();
             })
-            
+            .fail((xhr, err, status) => {
+            })
     }
 
     function showcomments(id) {
-        $("#main").hide();
         $("#commsnts").show();
         var url = "https://jsonplaceholder.typicode.com/posts/"+id+"/comments"
         $.getJSON(url)
