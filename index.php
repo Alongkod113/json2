@@ -154,7 +154,7 @@
                     /*line += data.body + "</td>"*/
                     line += "<td>" + data.postId+ "</td>"
                     line += "</tr>";
-                    $("#tblcomments").append(line);
+                    $("#tblcomment").append(line);
              
             })
             .fail((xhr, err, status) => {
