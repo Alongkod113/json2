@@ -37,21 +37,18 @@
 
     <div class="row bg">
         <div class="col-4 bg2"><br>
-            <div class="col-4">
                 <img src="https://files.gqthailand.com/uploads/%E0%B8%81%E0%B8%A7%E0%B8%B1%E0%B8%81%E0%B8%A1%E0%B8%A3%E0%B8%81%E0%B8%951.jpg"
                     alt="รูปภาพ" class="card-img-top"><br>
                 <div class="card-body">
                     <p class="card-text">กวักมรกตขึ้นชื่อว่าเป็นไม้ในร่มที่เลี้ยงง่าย ปกติจะมีใบอวบน้ำสีเขียวมรกต
                         แต่สำหรับพันธุ์ด่างจะมีใบบางส่วนเป็นสีเหลืองหรือขาวนวลทั้งใบหรือขึ้นเป็นจุดแซมกับใบสีเขียว
                         กวักมรกตไม่ชอบแสงแดด แต่ควรเลี้ยงในห้องที่มีอากาศถ่ายเทและมีแสงส่องรำไร
-                        รดน้ำแค่สัปดาห์ละสองครั้งพอ
-                        หากรดมากเกินไปจนดินแฉะจะทำให้รากเน่าได้
+                        รดน้ำแค่สัปดาห์ละสองครั้งพอหากรดมากเกินไปจนดินแฉะจะทำให้รากเน่าได้
                         ความยากในการเลี้ยงกวักมรกตด่างคือเราจะสังเกตว่าใบซีดขาวนั้นเป็นธรรมชาติหรือใบมีปัญหากันแน่</p>
                 </div>
                 <div>
                 </div>
                 <div class="col-4 bg2"><br>
-                    <div class="card" style="width: 18rem;"></div>
                     <img src="https://files.gqthailand.com/uploads/Pink-Princess1.jpg" alt="รูปภาพ"
                         class="card-img-top"><br>
                     <div class="card-body">
