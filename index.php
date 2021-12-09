@@ -76,12 +76,14 @@
                             เป็นไม้ที่ปลูกไว้ในบ้านได้ มีอากาศถ่ายเท แสงส่องรำไร รดน้ำปานกลาง
                             แต่อย่างที่น้องญาญ่าบอกว่าหากเลี้ยงไว้ในที่โดนแสงสีชมพูสดบนใบก็จะซีดขาว จริงๆ
                             ฟิโลเดนดรอนมีพันธุ์ด่างอีกเยอะมาก อาทิ ฟิโลเดนดรอนมะละกอด่าง ฟิโลเดนดรอน ไวท์ไนท์
-                            ฟิโลเดนดรอนก้ามกุ้งด่าง</p>
+                            ฟิโลเดนดรอนก้ามกุ้งด่าง
+                        </p>
                     </div>
                     <div class="col-12 bg0">
+                        <button id="btnBack"> back </button>
 
                         <div id="main">
-                            <table>
+                            <table class="table table-success table-striped">
                                 <thead>
                                     <tr>
                                         <th>ID</th>
@@ -91,50 +93,35 @@
                                 </thead>
                                 <tbody id="tblPosts">
                                 </tbody>
-                                </head>
-
-                                <body>
-                                    <button id="btnBack"> back </button>
-                                    <div id="main">
-                                        <table>
-                                            <thead>
-                                                <tr>
-                                                    <th>ID</th>
-                                                    <th>Title</th>
-                                                    <th> Details </th>
-                                                </tr>
-                                            </thead>
-                                            <tbody id="tblPosts">
-                                            </tbody>
-                                        </table>
-                                    </div>
-
-                                    <div id="Detail">
-                                        <table>
-                                            <thead>
-                                                <tr>
-                                                    <th>ID</th>
-                                                    <th>Title</th>
-                                                    <th>Userid</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody id="tblDetails">
-                                            </tbody>
-                                        </table>
-                                    </div>
                             </table>
                         </div>
 
+                        <div id="Detail">
+                            <table class="table table-success table-striped">
+                                <thead>
+                                    <tr>
+                                        <th>ID</th>
+                                        <th>Title</th>
+                                        <th>Userid</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="tblDetails">
+                                </tbody>
+                            </table>
+                        </div>
+                        </table>
                     </div>
-                    <div class="col-12 bg0 center">
-                        <h1>63112379_Alongkod</h1>
-                    </div>
+
                 </div>
-
-
+                <div class="col-12 bg0 center">
+                    <h1>63112379_Alongkod</h1>
+                </div>
             </div>
+
+
         </div>
-    </div>    
+    </div>
+    </div>
 </body>
 <script>
     function showDetails(id) {
