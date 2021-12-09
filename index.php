@@ -9,6 +9,8 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 
     <title>63112379_Alongkod</title>
     <style>
@@ -88,6 +90,90 @@
                                 </thead>
                                 <tbody id="tblPosts">
                                 </tbody>
+                            </head>
+
+                            <body>
+                                <button id="btnBack"> back </button>
+                                <div id="main">
+                                    <table>
+                                        <thead>
+                                            <tr>
+                                                <th>ID</th> <th>Title</th><th> Details </th>
+                                            </tr>
+                                        </thead>
+                                        <tbody id="tblPosts">
+                                        </tbody>
+                                    </table>
+                                </div>
+                            
+                                <div id="Detail">
+                                    <table>
+                                        <thead>
+                                            <tr>
+                                                <th>ID</th><th>Title</th><th>Userid</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody id="tblDetails">
+                                        </tbody>
+                                    </table>
+                                </div>
+                            
+                            
+                            </body>
+                            <script>
+                                function showDetails(id) {
+                                    $("#main").hide();
+                                    $("#etail").show();
+                                    // console.log(id);
+                                    var url = "https://jsonplaceholder.typicode.com/posts/" + id;
+                                    $.getJSON(url)
+                                        .done((data) => {
+                                            console.log(data);
+                                            var line = "<tr id='detailROW'";
+                                            line += "><td>" + data.id + "</td>"
+                                            line += "<td><b>" + data.title + "</b><br/>"
+                                            line += data.body + "</td>"
+                                            line += "<td>" + data.userId + "</td>"
+                                            line += "</tr>";
+                                            $("#tblDetails").append(line);
+                                        })
+                                        .fail((xhr, status, error) => {
+                                        })
+                                }
+                            
+                                function loadPosts() {
+                                    var url = "https://jsonplaceholder.typicode.com/posts";
+                            
+                                    $.getJSON(url)
+                                        .done((data) => {
+                                            $.each(data, (k, item) => {
+                                                // console.log(item);
+                                                var line = "<tr>";
+                                                line += "<td>" + item.id + "</td>";
+                                                line += "<td><b>" + item.title + "</b><br/>";
+                                                line += item.body + "</td>";
+                                                line += "<td> <button onClick='showDetails(" + item.id + ");' > link </button> </td>";
+                                                line += "</tr>";
+                                                $("#tblPosts").append(line);
+                                            });
+                                            $("#main").show();
+                                        })
+                                        .fail((xhr, status, error) => {
+                                        })
+                                }
+                            
+                             
+                                $(() => {
+                                    loadPosts();
+                                    $("#detail").hide();
+                                    
+                                    $("#btnBack").click(() => {
+                                        $("#main").show();
+                                        $("#detail").hide();
+                                        $("#detailROW").remove();                           
+                                    });
+                                })
+                            </script>
                             </table>
                         </div>
                     </div>
@@ -97,7 +183,7 @@
         <br>
         <div>
             <div class="col-12 bg0 center">
-                <h1>63112379_Alongkod_</h1>
+                <h1>63112379_Alongkod</h1>
             </div>
         </div>
 
