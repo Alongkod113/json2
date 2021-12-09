@@ -18,7 +18,8 @@
         }
         .bg3{
             background-color:gold;
-            width: 90%;
+            height: 600px;
+            width: 300px;
             float: left;
         }
 
@@ -28,7 +29,7 @@
     <div class="container">
         <h1>spotted tree</h1>
         <img src="https://www.prachachat.net/wp-content/uploads/2021/09/%E0%B9%84%E0%B8%A1%E0%B9%89%E0%B8%94%E0%B9%88%E0%B8%B2%E0%B8%87.jpg" alt="รูปภาพ" width="90%"><br>
-        <div class="col-01 bg3"></div>
+        <div class="col-01 bg3">[Float:left]</div>
     <div class="row bg">
         <div class="col-6 bg2">
             <br>
@@ -41,7 +42,7 @@
     </div>
     <div class="col-02 bg">
             <br>
-            <img src="https://files.gqthailand.com/uploads/Pink-Princess1.jpg" alt="รูปภาพ"class="card-img-top" alt="รูปภาพ"class="card-img-top" ><br>
+            <img src="https://files.gqthailand.com/uploads/Pink-Princess1.jpg" alt="รูปภาพ"class="card-img-top" alt="รูปภาพ" ><br>
             <div class="card-body"></div>
                 <p  class="card-text">ฟิโลเดนดรอนเป็นพรรณไม้ธรรมดาสำหรับเลี้ยงที่บ้าน ราคาไม่แพง ดูแลง่าย ใบมีรูปทรงสวย แต่ต้นที่ญาญ่า - อุรัสยา เสปอร์บันด์ นำมาเลี้ยงจนเป็นผู้นำเทรนด์ (จนราคาพุ่งไปสูงลิ่ว) คือฟิโลเดนดรอน พิงค์ ปรินเซส ที่ใบสีเขียวจะมีสีชมพูแทรกเข้ามาครึ่งใบบ้าง ค่อนใบบ้าง เป็นไม้ที่ปลูกไว้ในบ้านได้ มีอากาศถ่ายเท แสงส่องรำไร รดน้ำปานกลาง แต่อย่างที่น้องญาญ่าบอกว่าหากเลี้ยงไว้ในที่โดนแสงสีชมพูสดบนใบก็จะซีดขาว จริงๆ ฟิโลเดนดรอนมีพันธุ์ด่างอีกเยอะมาก อาทิ ฟิโลเดนดรอนมะละกอด่าง ฟิโลเดนดรอน ไวท์ไนท์ ฟิโลเดนดรอนก้ามกุ้งด่าง </p>
         </div>
