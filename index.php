@@ -123,67 +123,64 @@
                                         </table>
                                     </div>
 
-
                                 </body>
-
                                 <script>
-                                function showDetails(id) {
-                                $("#main").hide();
-                                $("#etail").show();
-                                // console.log(id);
-                                var url = "https://jsonplaceholder.typicode.com/posts/" + id;
-                                $.getJSON(url)
-                                .done((data) => {
-                                console.log(data);
-                                var line = "<tr id='detailROW'";
-                                            line += ">
-                                    <td>" + data.id + "</td>"
-                                    line += "<td><b>" + data.title + "</b><br />"
-                                        line += data.body + "</td>"
-                                    line += "<td>" + data.userId + "</td>"
-                                    line += "
-                                </tr>";
-                                $("#tblDetails").append(line);
-                                })
-                                .fail((xhr, status, error) => {
-                                })
-                                }
+                                    function showDetails(id) {
+                                        $("#main").hide();
+                                        $("#etail").show();
+                                        // console.log(id);
+                                        var url = "https://jsonplaceholder.typicode.com/posts/" + id;
+                                        $.getJSON(url)
+                                            .done((data) => {
+                                                console.log(data);
+                                                var line = "<tr id='detailROW'";
+                                                line += "><td>" + data.id + "</td>"
+                                                line += "<td><b>" + data.title + "</b><br/>"
+                                                line += data.body + "</td>"
+                                                line += "<td>" + data.userId + "</td>"
+                                                line += "</tr>";
+                                                $("#tblDetails").append(line);
+                                            })
+                                            .fail((xhr, status, error) => {
+                                            })
+                                    }
 
-                                function loadPosts() {
-                                var url = "https://jsonplaceholder.typicode.com/posts";
-                                var i = 0;
-                                $.getJSON(url)
-                                .done((data) => {
-                                $.each(data, (k, item) => {
-                                // console.log(item);
-                                i++;
-                                var line = "<tr>";
-                                    line += "<td>" + item.id + "</td>";
-                                    line += "<td><b>" + item.title + "</b><br />";
-                                        line += item.body + "</td>";
-                                    line += "<td> <button onClick='showDetails(" + item.id + ");'> link </button>
-                                    </td>";
-                                    line += "</tr>";
-                                $("#tblPosts").append(line);
-                                if (i == 10)
-                                });
-                                $("#main").show();
-                                })
-                                .fail((xhr, status, error) => {
-                                })
-                                }
+                                    function loadPosts() {
+                                        var url = "https://jsonplaceholder.typicode.com/posts"
+                                        var i = 0;
+                                        $.getJSON(url)
+                                            .done((data) => {
+                                                $.each(data, (k, item) => {
+                                                    // console.log(item);
+                                                    i++;
+                                                    var line = "<tr>";
+                                                    line += "<td>" + item.id + "</td>";
+                                                    line += "<td><b>" + item.title + "</b><br/>";
+                                                    line += item.body + "</td>";
+                                                    line += "<td> <button onClick='showDetails(" + item.id + ");' > link </button> </td>";
+                                                    line += "</tr>";
+                                                    $("#tblPosts").append(line);
+                                                    if (i == 10) {
+                                                        loadPosts().stop();
+                                                    };
+                                                });
+                                                $("#main").show();
+                                            })
+                                            .fail((xhr, status, error) => {
+                                            })
+                                    }
 
 
-                                $(() => {
-                                loadPosts();
-                                $("#detail").hide();
+                                    $(() => {
+                                        loadPosts();
+                                        $("#detail").hide();
 
-                                $("#btnBack").click(() => {
-                                $("#main").show();
-                                $("#detail").hide();
-                                $("#detailROW").remove();
-                                });
-                                })
+                                        $("#btnBack").click(() => {
+                                            $("#main").show();
+                                            $("#detail").hide();
+                                            $("#detailROW").remove();
+                                        });
+                                    })
                                 </script>
                             </table>
                         </div>
