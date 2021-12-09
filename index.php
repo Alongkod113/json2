@@ -75,7 +75,7 @@
         $("#detail").hide();
         $("main2").hide();
         var url = "https://jsonplaceholder.typicode.com/posts"
-        $.getJSON(url)
+        $.getJSON(url0-9)
             .done((data) => {
                 $.each(data, (k, item) => {
                     
