@@ -18,8 +18,7 @@
         }
         .bg3{
             background-color:gold;
-            height: 600px;
-            width: 300px;
+            width: 90%;
             float: left;
         }
 
