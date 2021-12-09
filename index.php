@@ -37,6 +37,8 @@
 
     <div class="row bg">
         <div class="col-4 bg2"><br>
+            <div class="col-4">
+                <div class="card" style="width: 18rem;"></div>
             <img src="https://files.gqthailand.com/uploads/%E0%B8%81%E0%B8%A7%E0%B8%B1%E0%B8%81%E0%B8%A1%E0%B8%A3%E0%B8%81%E0%B8%951.jpg"
                 alt="รูปภาพ" class="card-img-top"><br>
             <div class="card-body">
@@ -49,6 +51,7 @@
         <div>
     </div>
         <div class="col-4 bg2"><br>
+            <div class="card" style="width: 18rem;"></div>
             <img src="https://files.gqthailand.com/uploads/Pink-Princess1.jpg" 
                 alt="รูปภาพ" class="card-img-top"><br>
             <div class="card-body">
