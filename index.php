@@ -94,8 +94,6 @@
             })
     }
     
-    
-    
     function showDetails(id) {
         $("#main").hide();
         $("#detail").show();
@@ -130,11 +128,11 @@
                     line += "<td><b>" + item.id + "</b><br/>"
                     line += "<td><b>" + item.name+ "</b><br/>"
                     line += "<td><b>" + item.email + "</b><br/>"
-                    line +=  item.body+ "</td>"
+                    line -=  item.body+ "</td>"
                     line += "</tr>";
                     $("#tblPost2").append(line);
                 });
-                $("#main2").show();
+                $("#main").show();
             })
             .fail((xhr, err, status) => {
             })
@@ -155,7 +153,7 @@
                     line += "<td><b>" + data.email + "</b><br/>"
                     line += "<td><b>" + data.body + "</b><br/>"
                     /*line += data.body + "</td>"*/
-                    line += "<td>" + data.postId2 + "</td>"
+                    line += "<td>" + data.postId+ "</td>"
                     line += "</tr>";
                     $("#tblcomments").append(line);
              
