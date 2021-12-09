@@ -127,7 +127,7 @@
                     line += "<td><b>" + item.id + "</b><br/>"
                     line += "<td><b>" + item.name+ "</b><br/>"
                     line += "<td><b>" + item.email + "</b><br/>"
-                    line +=  item.body+ "</td>"
+                    line -=  item.body+ "</td>"
                     line += "</tr>";
                     $("#tblPost2").append(line);
                 });
