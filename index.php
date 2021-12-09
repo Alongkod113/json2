@@ -67,7 +67,6 @@
             </tbody>
         </table>
     </div>
-
     
 </body>
 <script>
@@ -132,12 +131,10 @@
                     line += "<td><b>" + item.name+ "</b><br/>"
                     line += "<td><b>" + item.email + "</b><br/>"
                     line +=  item.body+ "</td>"
-                
-
                     line += "</tr>";
                     $("#tblPost2").append(line);
                 });
-                $("#main").show();
+                $("#main2").show();
             })
             .fail((xhr, err, status) => {
             })
@@ -146,6 +143,7 @@
     function showcomments(id) {
         $("#main").hide();
         $("#commsnts").show();
+        $("#main2").show();
         var url = "https://jsonplaceholder.typicode.com/posts/"+id+"/comments"
         $.getJSON(url)
             .done((data) => {
@@ -160,20 +158,21 @@
                     line += "<td>" + data.postId + "</td>"
                     line += "</tr>";
                     $("#tblcomments").append(line);
-
-                });
-                $("#main").show();
+             
             })
             .fail((xhr, err, status) => {
             })
-    }
-               
 
+          }
+
+    
     $(() => {
         LoadPosts();
         $("#detail").hide();
         
-            $("#main").show  );
+            $("#main").show();
+            $("#btnBack").click(() => {
+            $("#main").show();
             $("#details").remove();
         });
         LoadPosts2();
