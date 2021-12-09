@@ -99,6 +99,7 @@
     function showDetails(id) {
         $("#main").hide();
         $("#detail").show();
+        $("main2").hide();
         var url = "https://jsonplaceholder.typicode.com/posts/" + id
         $.getJSON(url)
             .done((data) => {
@@ -135,7 +136,7 @@
                     line += "</tr>";
                     $("#tblPost2").append(line);
                 });
-                $("#main").show();
+                $("#main2").show();
             })
             .fail((xhr, err, status) => {
             })
