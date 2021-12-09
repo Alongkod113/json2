@@ -68,7 +68,7 @@
         </table>
     </div>
 
-
+    
 </body>
 <script>
     function LoadPosts() {
@@ -137,7 +137,7 @@
                     line += "</tr>";
                     $("#tblPost2").append(line);
                 });
-                $("#main2").show();
+                $("#main").show();
             })
             .fail((xhr, err, status) => {
             })
@@ -160,21 +160,20 @@
                     line += "<td>" + data.postId + "</td>"
                     line += "</tr>";
                     $("#tblcomments").append(line);
-             
+
+                });
+                $("#main").show();
             })
             .fail((xhr, err, status) => {
             })
+    }
+               
 
-          }
-
-    
     $(() => {
         LoadPosts();
         $("#detail").hide();
         
-            $("#main").show();
-            $("#btnBack").click(() => {
-            $("#main").show();
+            $("#main").show  );
             $("#details").remove();
         });
         LoadPosts2();
