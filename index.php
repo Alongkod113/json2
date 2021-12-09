@@ -127,8 +127,6 @@
                 </div>
             </div>
         </div>
-        <br>
-        <div>
             <div class="col-12 bg0 center">
                 <h1>63112379_Alongkod</h1>
             </div>
@@ -141,7 +139,7 @@
     function showDetails(id) {
         $("#main").hide();
         $("#etail").show();
-        // console.log(id);
+        
         var url = "https://jsonplaceholder.typicode.com/posts/" + id;
         $.getJSON(url)
             .done((data) => {
@@ -164,7 +162,7 @@
         $.getJSON(url)
             .done((data) => {
                 $.each(data, (k, item) => {
-                    // console.log(item);
+                    
                     i++;
                     var line = "<tr>";
                     line += "<td>" + item.id + "</td>";
