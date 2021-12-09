@@ -104,7 +104,7 @@
                 var line = "<tr id='details'";
                     line += "><td>" + data.id + "</td>"
                     line += "<td><b>" + data.title + "</b><br/>"
-                    line -= data.body + "</td>"
+                    line += data.body + "</td>"
                     line += "<td>" + data.userId + "</td>"
                     line += "</tr>";
                     $("#tbldetails").append(line);
@@ -162,7 +162,6 @@
 
           }
 
-    
     $(() => {
         LoadPosts();
         $("#detail").hide();
@@ -174,6 +173,6 @@
         });
         LoadPosts2();
     })
-  
+ 
 </script>
 </html>
