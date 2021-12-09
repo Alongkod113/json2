@@ -80,67 +80,50 @@
                         </p>
                     </div>
                     <div class="col-12 bg0">
-                        <button id="btnBack"> back </button>
+                        <div class="col-9">
+                            <button id="btnBack"> back </button>
+                            <div id="main">
+                                <table class="table table-success table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th>ID</th>
+                                            <th>Title</th>
+                                            <th>Author</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="tblPost">
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div id="detail">
+                                <table class="table table-success table-striped">
+                                    <div id="Detail">
+                                        <table class="table table-success table-striped">
+                                            <thead>
+                                                <tr>
+                                                    <th>ID</th>
+                                                    <th>Title</th>
+                                                    <th>Userid</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody id="tblDetails">
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </table>
+                            </div>
 
-                        <div id="main">
-                            <table class="table table-success table-striped">
-                                <thead>
-                                    <tr>
-                                        <th>ID</th>
-                                        <th>Title</th>
-                                        <th> Details </th>
-                                    </tr>
-                                </thead>
-                                <tbody id="tblPosts">
-                                </tbody>
-                            </table>
                         </div>
-
-                        <div id="Detail">
-                            <table class="table table-success table-striped">
-                                <thead>
-                                    <tr>
-                                        <th>ID</th>
-                                        <th>Title</th>
-                                        <th>Userid</th>
-                                    </tr>
-                                </thead>
-                                <tbody id="tblDetails">
-                                </tbody>
-                            </table>
+                        <div class="col-12 bg0 center">
+                            <h1>63112379_Alongkod</h1>
                         </div>
-                        </table>
                     </div>
 
-                </div>
-                <div class="col-12 bg0 center">
-                    <h1>63112379_Alongkod</h1>
+
                 </div>
             </div>
-
-
         </div>
-    </div>
-    </div>
 </body>
-<div class="col-9">
-    <button id="btnBack"> back </button>
-    <div id="main">
-        <table class="table table-success table-striped">
-            <thead>
-                <tr>
-                    <th>ID</th>
-                    <th>Title</th>
-                    <th>Author</th>
-                </tr>
-            </thead>
-            <tbody id="tblPost">
-            </tbody>
-        </table>
-    </div>
-    <div id="detail">
-        <table class="table table-success table-striped">
-            
 
 
 </html>
