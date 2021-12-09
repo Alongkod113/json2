@@ -28,11 +28,12 @@
 </head>
     <div class="container">
         <h1>spotted tree</h1>
-        <img src="https://www.prachachat.net/wp-content/uploads/2021/09/%E0%B9%84%E0%B8%A1%E0%B9%89%E0%B8%94%E0%B9%88%E0%B8%B2%E0%B8%87.jpg" alt="รูปภาพ"><br>
+        <img src="https://www.prachachat.net/wp-content/uploads/2021/09/%E0%B9%84%E0%B8%A1%E0%B9%89%E0%B8%94%E0%B9%88%E0%B8%B2%E0%B8%87.jpg" alt="รูปภาพ" width="90%"><br>
         <div class="col-01 bg3"></div>
     <div class="row bg">
         <div class="col-6">
             <img src="https://files.gqthailand.com/uploads/%E0%B8%81%E0%B8%A7%E0%B8%B1%E0%B8%81%E0%B8%A1%E0%B8%A3%E0%B8%81%E0%B8%951.jpg" alt="รูปภาพ" class="card-img-top" alt="...">
             <div class="card-body">
+                <p class="card-text">กวักมรกตขึ้นชื่อว่าเป็นไม้ในร่มที่เลี้ยงง่าย ปกติจะมีใบอวบน้ำสีเขียวมรกต แต่สำหรับพันธุ์ด่างจะมีใบบางส่วนเป็นสีเหลืองหรือขาวนวลทั้งใบหรือขึ้นเป็นจุดแซมกับใบสีเขียว กวักมรกตไม่ชอบแสงแดด แต่ควรเลี้ยงในห้องที่มีอากาศถ่ายเทและมีแสงส่องรำไร รดน้ำแค่สัปดาห์ละสองครั้งพอ หากรดมากเกินไปจนดินแฉะจะทำให้รากเน่าได้ ความยากในการเลี้ยงกวักมรกตด่างคือเราจะสังเกตว่าใบซีดขาวนั้นเป็นธรรมชาติหรือใบมีปัญหากันแน่</p>
             
         </div>
