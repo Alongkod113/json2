@@ -144,7 +144,7 @@
         $("#main").hide();
         $("#commsnts").show();
         $("#main2").show();
-        var url = "https://jsonplaceholder.typicode.com/posts/"+id+"/comments"
+        var url = "https://jsonplaceholder.typicode.com/posts/comments"
         $.getJSON(url)
             .done((data) => {
                 console.log(data);
