@@ -117,9 +117,7 @@
                                         </tbody>
                                     </table>
                                 </div>
-                            
-                            
-                            </body>
+                                
                             <script>
                                 function showDetails(id) {
                                     $("#main").hide();
@@ -165,8 +163,7 @@
 
                                     })
                                 }
-                            
-                             
+
                                 $(() => {
                                     loadPosts();
                                     $("#detail").hide();
