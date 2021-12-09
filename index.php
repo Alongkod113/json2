@@ -48,7 +48,7 @@
             </div>
         <div>
     </div>
-        <div class="col-4 bg3"><br>
+        <div class="col-4 bg2"><br>
             <img src="https://files.gqthailand.com/uploads/Pink-Princess1.jpg" 
                 alt="รูปภาพ" class="card-img-top"><br>
             <div class="card-body">
