@@ -27,14 +27,13 @@
 
 </head>
     <div class="container">
-        <img src="https://www.prachachat.net/wp-content/uploads/2021/09/%E0%B9%84%E0%B8%A1%E0%B9%89%E0%B8%94%E0%B9%88%E0%B8%B2%E0%B8%87.jpg" alt="รูปภาพ"><br>
-        <div class="col-12 bg3"></div>
         <h1>spotted tree</h1>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio minus quos molestiae, beatae assumenda ipsam iure laudantium vero itaque quisquam iusto amet possimus quis ipsa dignissimos culpa tempora nobis ducimus.</p>
-<hr>
+        <img src="https://www.prachachat.net/wp-content/uploads/2021/09/%E0%B9%84%E0%B8%A1%E0%B9%89%E0%B8%94%E0%B9%88%E0%B8%B2%E0%B8%87.jpg" alt="รูปภาพ"><br>
+        <div class="col-01 bg3"></div>
     <div class="row bg">
         <div class="col-6">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, necessitatibus reiciendis distinctio in commodi quis ab repudiandae aspernatur dolore expedita, laboriosam dolor maiores accusamus amet sequi aperiam unde minus iste.
+            <img src="https://files.gqthailand.com/uploads/%E0%B8%81%E0%B8%A7%E0%B8%B1%E0%B8%81%E0%B8%A1%E0%B8%A3%E0%B8%81%E0%B8%951.jpg" alt="รูปภาพ">
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, necessitatibus reiciendis distinctio in commodi quis ab repudiandae aspernatur dolore expedita, laboriosam dolor maiores accusamus amet sequi aperiam unde minus iste.</p>
         </div>
 
         <div class="col-6">
