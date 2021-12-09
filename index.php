@@ -134,6 +134,7 @@
                 
 
                     line += "</tr>";
+                    $("#tblPost2").append(line);
                 });
                 $("#main").show();
             })
