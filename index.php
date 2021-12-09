@@ -131,7 +131,7 @@
                     line += "</tr>";
                     $("#tblPost2").append(line);
                 });
-                $("#main2").show();
+                $("#main").show();
             })
             .fail((xhr, err, status) => {
             })
