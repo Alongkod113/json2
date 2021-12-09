@@ -7,7 +7,7 @@
     <script src="https://code.jquery.com/jquery-3.6.0.js"
         integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Json</title>
+    <title>Json2</title>
 </head>
 <body>
     <button id="btnBack"> back </button>
@@ -144,7 +144,7 @@
         $("#main").hide();
         $("#commsnts").show();
         $("#main2").show();
-        var url = "https://jsonplaceholder.typicode.com/posts/comments"
+        var url = "https://jsonplaceholder.typicode.com/posts/"+id+"/comments"
         $.getJSON(url)
             .done((data) => {
                 console.log(data);
@@ -155,7 +155,7 @@
                     line += "<td><b>" + data.email + "</b><br/>"
                     line += "<td><b>" + data.body + "</b><br/>"
                     /*line += data.body + "</td>"*/
-                    line += "<td>" + data.postId + "</td>"
+                    line += "<td>" + data.postId2 + "</td>"
                     line += "</tr>";
                     $("#tblcomments").append(line);
              
