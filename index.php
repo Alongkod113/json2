@@ -51,7 +51,7 @@
             </tbody>
         </table>
     </div>
-    <div id="comments">
+    <div id="comment">
         <table>
             <thead>
                  <tr>
