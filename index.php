@@ -161,7 +161,7 @@
             })
 
           }
-
+          
     $(() => {
         LoadPosts();
         $("#detail").hide();
@@ -173,6 +173,6 @@
         });
         LoadPosts2();
     })
- 
+  
 </script>
 </html>
