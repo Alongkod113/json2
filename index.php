@@ -16,12 +16,17 @@
 </body>
 <div class="container">
     <form action="">
-
-        <label for="email"> Input Email: </label>
-        <input type="email" id="email" class="form-control" required>
-
-
-        <input type="submit" value="send" class="btn btn-primary">
+      <div class="form-group">
+        <label for="frmEmail"> Username </label>
+        <input type="email"  id="frmEmail" class="form-control" required />
+      </div>
+      <div class="form-group">
+        <label for="frmPassword">Password</label>
+        <input type="password"  id="frmPassword" class="form-control" required />
+      </div>
+      <input type="submit" value="Send"  class="btn btn-primary" />
     </form>
+  
 </div>
+
 </html>
