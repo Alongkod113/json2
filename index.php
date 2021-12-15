@@ -40,7 +40,6 @@
                 <div class="col-input my-input"><input type="number" name="fUser" class="center" required="" value="">
                 </div>
             </div>
-            <div class="row" align="center"><input type="submit" class="my-button" value="ตกลง"></div>
         </div>
     </form>
     <form action="#" method="post" name="add" class="form-horizontal" id="add">
