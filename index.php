@@ -30,12 +30,15 @@
     .my-input {
         width: 60%
     }
+    .bg {
+            background-color: mediumpurple;
+        }
 </style>
 
-<body>
+<body class="bg">
 
     <form action="#" method="post" name="add" class="form-horizontal" id="add">
-        <h1 style="text-align: center;">แบบฟอร์มกรอกข้อมูลส่วนตัว</h1>
+        <h1 style="text-align: center;">แบบฟอร์มกรอกประวัติส่วนตัว</h1>
         <p></p>
         <form action="home_login.asp?e=1" method="post" autocomplete="off">
             <div id="myForm">
