@@ -16,7 +16,7 @@
     #myForm {
         max-width: 370px;
         border-radius: 1em;
-        border: 2px solid red;
+        border: 2px solid orange;
         background-color: #ffc;
         padding: 20px;
         margin: 10px;
@@ -30,9 +30,10 @@
     .my-input {
         width: 60%
     }
+
     .bg {
-            background-color: mediumpurple;
-        }
+        background-color: mediumpurple;
+    }
 </style>
 
 <body class="bg">
@@ -43,7 +44,7 @@
         <form action="home_login.asp?e=1" method="post" autocomplete="off">
             <div id="myForm">
                 <div class="row">
-                    <div class="col-label my-label"><label>เลขประชาชน</label></div>
+                    <div class="col-label my-label"><label>เลขบัตรประชาชน</label></div>
                     <div class="col-input my-input"><input type="number" name="fUser" class="center" required=""
                             value="">
                     </div>
@@ -236,16 +237,11 @@
             <form action="home_login.asp?e=1" method="post" autocomplete="off">
                 <div id="myForm">
                     <div class="row">
-                        <div class="col-label my-label"><label>เลขประชาชน</label></div>
-                        <div class="col-input my-input"><input type="number" name="fUser" class="center" required=""
-                                value=""></div>
-                    </div>
-                    <div class="row">
                         <div class="col-label my-label"><label>รหัสผ่าน</label></div>
                         <div class="col-input my-input"><input type="password" name="fPass" class="center" required=""
                                 value=""></div>
                     </div><br>
-                    <div class="row" align="center"><input type="submit" class="my-button" value="ตกลง"></div>
+                    <button type="submit" class="btn btn-primary">ตกลง</button>
                 </div>
             </form>
         </div>
