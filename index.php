@@ -33,18 +33,20 @@
 </style>
 
 <body>
-    <form action="home_login.asp?e=1" method="post" autocomplete="off">
-        <div id="myForm">
-            <div class="row">
-                <div class="col-label my-label"><label>เลขประชาชน</label></div>
-                <div class="col-input my-input"><input type="number" name="fUser" class="center" required="" value="">
-                </div>
-            </div>
-        </div>
-    </form>
+
     <form action="#" method="post" name="add" class="form-horizontal" id="add">
         <h1 style="text-align: center;">แบบฟอร์มกรอกข้อมูลส่วนตัว</h1>
         <p></p>
+        <form action="home_login.asp?e=1" method="post" autocomplete="off">
+            <div id="myForm">
+                <div class="row">
+                    <div class="col-label my-label"><label>เลขประชาชน</label></div>
+                    <div class="col-input my-input"><input type="number" name="fUser" class="center" required=""
+                            value="">
+                    </div>
+                </div>
+            </div>
+        </form>
         <div class="form-group">
             <div class="col-sm-2 control-label">
                 <div class="input-group mb-3">
