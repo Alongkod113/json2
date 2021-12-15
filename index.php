@@ -1,41 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://code.jquery.com/jquery-3.6.0.js"
-        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
     <title>Document</title>
 </head>
-
 <body>
-
+    <td valign="top" bgcolor="#F0F0FF"><font face="MS Sans Serif" size="2" color="#000000">ที่อยู่</font>
+        <select name="BIRTHprovinceid"><option value="102">Aichi (Japan)</option><option value="140">Azerbijan</option><option value="143">Bhutan</option><option value="122">Chittagong</option><option value="136">Ethiopia</option><option value="134">Gambia</option><option value="141">Ghana</option><option value="145">Jordan</option><option value="139">Kazakhstan</option><option value="146">Kenya</option><option value="144">Liberia</option><option value="112">Miami (United States of America)</option><option value="147">Nigeria</option><option value="133">Papua New Guinea</option><option value="150">Penang Malaysia</option><option value="123">Sidoarjo</option><option value="148">Sri Lanka</option><option value="142">Sudan</option><option value="137">Togo</option><option value="101">Tyrol (Austria)</option><option value="117">United States of America</option><option value="135">Uzbekistan</option><option value="138">Zimbabwe</option><option value="81">กระบี่</option><option value="10">กรุงเทพมหานคร</option><option value="121">กัมพูชา</option><option value="71">กาญจนบุรี</option><option value="46">กาฬสินธุ์</option><option value="62">กำแพงเพชร</option><option value="132">เกาหลีใต้</option><option value="40">ขอนแก่น</option><option value="118">แคนาดา</option><option value="22">จันทบุรี</option><option value="103">จีน</option><option value="24">ฉะเชิงเทรา</option><option value="20">ชลบุรี</option><option value="18">ชัยนาท</option><option value="36">ชัยภูมิ</option><option value="86">ชุมพร</option><option value="57">เชียงราย</option><option value="50">เชียงใหม่</option><option value="113">ซาอุดีอาระเบีย</option><option value="116">ญี่ปุ่น</option><option value="92">ตรัง</option><option value="23">ตราด</option><option value="63">ตาก</option><option value="100">ต่างประเทศ</option><option value="111">ไต้หวัน</option><option value="26">นครนายก</option><option value="73">นครปฐม</option><option value="48">นครพนม</option><option value="30">นครราชสีมา</option><option value="80">นครศรีธรรมราช</option><option value="60">นครสวรรค์</option><option value="12">นนทบุรี</option><option value="96">นราธิวาส</option><option value="55">น่าน</option><option value="127">นิวซีแลนด์</option><option value="109">นิวเดลี</option><option value="124">เนปาล</option><option value="114">บังคลาเทศ</option><option value="38">บึงกาฬ</option><option value="31">บุรีรัมย์</option><option value="13">ปทุมธานี</option><option value="77">ประจวบคีรีขันธ์</option><option value="25">ปราจีนบุรี</option><option value="94">ปัตตานี</option><option value="149">ปากีสถาน</option><option value="119">พม่า</option><option value="14">พระนครศรีอยุธยา</option><option value="56">พะเยา</option><option value="82" selected="">พังงา</option><option value="93">พัทลุง</option><option value="66">พิจิตร</option><option value="65">พิษณุโลก</option><option value="76">เพชรบุรี</option><option value="67">เพชรบูรณ์</option><option value="54">แพร่</option><option value="125">ฟิลิปปินส์</option><option value="83">ภูเก็ต</option><option value="44">มหาสารคาม</option><option value="107">มาเลเซีย</option><option value="49">มุกดาหาร</option><option value="58">แม่ฮ่องสอน</option><option value="0">ไม่ระบุ</option><option value="35">ยโสธร</option><option value="95">ยะลา</option><option value="126">เยอรมัน</option><option value="45">ร้อยเอ็ด</option><option value="85">ระนอง</option><option value="21">ระยอง</option><option value="70">ราชบุรี</option><option value="131">ราชอาณาจักรโมร็อกโก</option><option value="16">ลพบุรี</option><option value="52">ลำปาง</option><option value="51">ลำพูน</option><option value="42">เลย</option><option value="115">เวียดนาม</option><option value="33">ศรีสะเกษ</option><option value="47">สกลนคร</option><option value="90">สงขลา</option><option value="91">สตูล</option><option value="11">สมุทรปราการ</option><option value="75">สมุทรสงคราม</option><option value="74">สมุทรสาคร</option><option value="27">สระแก้ว</option><option value="19">สระบุรี</option><option value="130">สาธารณรัฐเช็ก</option><option value="120">สาธารณรัฐประชาธิปไตยประชาชนลาว</option><option value="128">สาธารณรัฐแอฟริกาใต้</option><option value="105">สิงคโปร์</option><option value="17">สิงห์บุรี</option><option value="64">สุโขทัย</option><option value="72">สุพรรณบุรี</option><option value="84">สุราษฎร์ธานี</option><option value="32">สุรินทร์</option><option value="43">หนองคาย</option><option value="39">หนองบัวลำภู</option><option value="106">ออสเตรเลีย</option><option value="110">อังกฤษ</option><option value="15">อ่างทอง</option><option value="37">อำนาจเจริญ</option><option value="129">อินเดีย</option><option value="104">อินโดนีเซีย</option><option value="41">อุดรธานี</option><option value="53">อุตรดิตถ์</option><option value="61">อุทัยธานี</option><option value="34">อุบลราชธานี</option><option value="108">ฮังการี</option></select>
+    </td>
+    
 </body>
-<div class="container">
-    <form action="">
-        <div class="form-group">
-            <label for="frmEmail"> Username </label>
-            <input type="email" id="frmEmail" class="form-control" required />
-        </div>
-        <div class="form-group">
-            <label for="frmPassword">Password</label>
-            <input type="password" id="frmPassword" class="form-control" required />
-        </div>
-        <input type="submit" value="Send" class="btn btn-primary" />
-    </form>
-
-</div>
-
-$("#Send").click(()=>{
-$("#formEmail").show();
-$("#formPassword").show();
-
-});
-
-
 </html>
