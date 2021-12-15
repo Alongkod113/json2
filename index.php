@@ -234,19 +234,12 @@
         <div class="form-group">
             <div class="col-sm-2">
             </div>
-            <form action="home_login.asp?e=1" method="post" autocomplete="off">
-                <div id="myForm">
-                    <div class="row">
-                        <div class="col-label my-label"><label>รหัสผ่าน</label></div>
-                        <div class="col-input my-input"><input type="password" name="fPass" class="center" required=""
-                                value=""></div>
-                    </div><br>
-                    <button type="submit" class="btn btn-primary">ตกลง</button>
-                </div>
+            <div class="col-sm-3">
+              <button type="submit" class="btn btn-primary">ตกลง</button>
+              
+            </div>
+          </div>
+        
             </form>
-        </div>
-
-    </form>
-</body>
-
+    </body>
 </html>
